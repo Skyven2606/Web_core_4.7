@@ -22,6 +22,7 @@ body {
   background-color: rgb(255, 255, 255);
   margin-top: 100px;
   margin-left: 0px;
+  padding-left: 80px;
 }
 
 img {
@@ -32,7 +33,7 @@ img {
 .text {
   color: #2a4a5c;
   font-size: 25px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
 .overlay {
@@ -45,14 +46,14 @@ img {
 .second-text {
   color: #2a4a5c;
   font-size: 15px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
 .container-2 {
   display: flex;
   align-items: flex-start;
   gap: 50px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
 .image1 {
@@ -99,65 +100,85 @@ img {
   text-align: center;
   color: #2a4a5c;
   font-size: 10px;
-  margin-left: 192px;
+  margin-left: 110px;
 }
 
 .line-text::before,
 .line-text::after {
   content: "";
   flex: 1;
-  border-bottom: 1px solid #a0acb4;
+  border-bottom: 1px solid #bcccd6;
   max-width: 80px;
   margin: 0 8px;
-
 }
 
-
-input {
-  width: 170px;
+.mail {
+  width: 180px;
   height: 33px;
   border: 1px solid #ccc;
   padding-top: 5px;
   padding-left: 8px;
   text-align: left;
   font-size: 11px;
-  margin-left: 73px;
+  margin-left: 0px;
+  background-color: white;
 }
 
-input::-webkit-input-placeholder {
-color: #a9b6c8;
-font-weight: bold;
-text-align: left;
-font-size: 11px;
+.mail::-webkit-input-placeholder {
+  color: #a9b6c8;
+  font-weight: bold;
+  text-align: left;
+  font-size: 11px;
+}
 
+.number {
+  width: 180px;
+  height: 33px;
+  border: 1px solid #ccc;
+  padding-top: 5px;
+  padding-left: 8px;
+  text-align: left;
+  font-size: 11px;
+  margin-left: 0px;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.number::-webkit-input-placeholder {
+  color: #a9b6c8;
+  font-weight: bold;
+  text-align: left;
+  font-size: 11px;
 }
 
 .text2 {
   color: #2a4a5c;
   font-size: 20px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
 .text3 {
   color: #2a4a5c;
   font-size: 13px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 
 .input-group {
   font-size: 11px;
   text-align: start;
-  margin-left: 8px;
+  margin-left: px;
 }
 
 .radio__input {
   width: 10px;
   height: 12px;
+  margin-left: 20px;
 }
 
 i {
   width: 10px;
   height: 10px;
+  margin-left: ;
 }
 
 .icon-container {
@@ -188,54 +209,53 @@ i {
 }
 
 .container-3 {
-display: block;
-position: relative;
-padding-left: 35px;
-margin-bottom: 12px;
-cursor: pointer;
-font-size: 12px;
-user-select: none;
-margin-left: 50px;
+  display: block;
+  position: relative;
+  padding-left: px;
+  margin-bottom: px;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+  margin-left: 0px;
 }
 
-.container-3 input {
-position: absolute;
-opacity: 0;
-cursor: pointer;
-height: 0;
-width: 0;
-color: #2A4A5C
-}
-
-.checkmark {
-position: absolute;
-top: 0;
-left: 0;
-height: 11px;
-width: 11px;
-background-color:#a0acb4;
-margin-left: 20px;
-border-color:#2a4a5c;
+.checkmark,
+input {
+  position:;
+  display:;
+  justify-content: start;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #a0acb4;
+  margin-left: 0px;
+  border-color: #2a4a5c;
 }
 
 .container-3 input:checked ~ .checkmark {
-background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .checkmark:after {
-content: "";
-position: absolute;
-display: none;
+  content: icon;
+  position: absolute;
+  display: none;
 }
 
 .login-btn {
-background-color: rgba(0, 106, 255, 0.852); 
-color: white; 
-padding: 12px 20px; 
-border: none; 
-border-radius: 5px; 
-cursor: pointer; 
-font-size: 14px; 
-transition: background-color 0.3s ease; 
-margin-left: 72px;
-width: 200px;
+  background-color: rgba(0, 106, 255, 0.852);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-left: px;
+  width: 200px;
+}
+
+.link {
+  color:#2196f3;
+}
